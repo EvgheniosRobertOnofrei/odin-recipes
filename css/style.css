@@ -1,0 +1,13 @@
+#odin-recipes {
+  color: aqua;
+  background-color: antiquewhite;
+}
+.description,
+.steps {
+  color: brown;
+  background-color: cadetblue;
+}
+.description.steps {
+  color: chartreuse;
+  background-color: dodgerblue;
+}

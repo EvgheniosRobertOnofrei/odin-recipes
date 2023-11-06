@@ -1,30 +1,42 @@
-img {
-  padding: 25px 100px 25px 50px;
-}
 body {
-  padding: 5px 370px 5px 450px;
+  width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.title,
-.description,
-.ingredients,
-.steps,
-#odin-recipes {
+.title {
   background-color: aquamarine;
-  font-family: Arial, Helvetica, sans-serif;
   border: 2px solid black;
-  margin: 0 auto 20px;
-  border: 10px black;
-  height: auto;
-  width: fit-content;
-  padding: 10px 150px 10px 150px;
-  box-sizing: border-box;
-}
-#genlist {
-  border: 10px solid aquamarine;
-  background-color: aqua;
-  margin: 5px auto 10px auto;
-  width: 100px;
   padding: 5px;
-  box-sizing: border-box;
+  text-align: center;
+}
+
+.ul {
+  text-align: center;
+  padding-left: 180px;
+}
+
+.genlist {
+  display: block;
+  background-color: aquamarine;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 16px;
+  width: 100px;
+}
+
+#return {
+  text-align: center;
+  margin: 50px;
+}
+
+.return {
+  padding: 5px;
+  display: inline-block;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
+img {
+  border: 3px solid;
 }
